@@ -22,4 +22,4 @@ Pure Python 3. No pip install needed. Just download and run.
 🔗 https://github.com/promptpolish-ai/git-context
 
 ## Support the dev
-⛓️ ETH/BSC/Polygon: `0x1fca7781515a1bdb2950543b075d060489701424`
+⛓️ ETH/BSC/Polygon: `0x96ae5ac39ac118361c158c045e6c41dc0c08c533`

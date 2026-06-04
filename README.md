@@ -48,7 +48,7 @@ If git-context saves you time, consider buying me a coffee:
 
 **Crypto (ETH / BSC / Polygon):**
 ```
-0x1fca7781515a1bdb2950543b075d060489701424
+0x96ae5ac39ac118361c158c045e6c41dc0c08c533
 ```
 
 **Ko-fi:** [https://ko-fi.com/promptpolish](https://ko-fi.com/promptpolish) *(coming soon)*
