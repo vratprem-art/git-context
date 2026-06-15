@@ -169,7 +169,9 @@ def file_contents_json(path, ignored=DEFAULT_IGNORE, max_total=15000):
             break
     return result
 
-def main():
+def main():    # Ensure UTF-8 output on all platforms (fixes Windows console encoding)
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     p = argparse.ArgumentParser(description='Generate AI-friendly context for a git repo')
     p.add_argument('--depth', type=int, default=4, help='Directory tree depth (default: 4)')
     p.add_argument('--files', action='store_true', help='Include source file contents')
